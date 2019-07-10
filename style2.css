@@ -1,0 +1,37 @@
+.container {
+    margin-top: 100px;
+    width: 500px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  #app {
+    display: grid;
+  }
+  
+  .top {
+    display: grid;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    border-bottom: 2px solid black;
+    text-align: center;
+    background-image: url("./images/brindle-logo.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #879958;
+  }
+
+  .bottom-middle {
+    display: grid;
+    grid-area: 1 / 2 / span 1 / span 1;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(190, 210, 210);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+  }
