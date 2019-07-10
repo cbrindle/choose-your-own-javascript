@@ -5,15 +5,16 @@ function handleDecision(event) {
   event.preventDefault();
 
   const inputBox = document.querySelector('.user-input');
-  let userInput = inputBox.value;
-  let userInput = userInput.toLowerCase();
+  let answer = inputBox.value;
+  answer = answer.toLowerCase();
 
-  if (userInput.includes(`car`)) || (userInput.includes(`investigate`)) {
+  console.log(answer);
+
+  if (answer.includes(`car`)) {
     window.location = './investigate.html';
-  } else if (userInput.includes(`inside`)) {
+  } else if (answer.includes(`inside`)) {
     window.location = './go-inside.html';
   } else {
-    alert(`I dont' see how ` + userInput + ` will help. Try again.`);
-    return false;
+    alert(`I don't see how ` + answer + ` will help. Try again.`);
   }
 }
