@@ -30,6 +30,9 @@
 .bottom-left {
   display: grid;
   grid-area: 1 / 1 / span 1 / span 1;
+  background-image: url("./images/pup1.jpg");
+  background-size: cover;
+  background-position: 60% 0%;
 }
 
 .bottom-middle {
