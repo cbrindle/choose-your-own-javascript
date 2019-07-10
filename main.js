@@ -10,7 +10,8 @@ function handleDecision(event) {
 
   console.log(answer);
 
-  if (answer.includes(`car`)) {
+  // Queries for index.html
+  if (answer.includes(`car`) || (answer.includes(`investigate`))) {
     window.location = './investigate.html';
   } else if (answer.includes(`inside`)) {
     window.location = './go-inside.html';
