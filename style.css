@@ -22,5 +22,15 @@
   height: 40vh;
   width: 100vw;
   justify-content: center;
-  background-image: linear-gradient(to right, grey, rgb(200, 200, 200));
+  grid-template-rows: 100%;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.bottom-middle {
+  display: grid;
+  grid-area: 1 / 2 / span 1 / span 1;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(190, 210, 210);
+  border: 2px solid black;
 }
