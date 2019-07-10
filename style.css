@@ -2,3 +2,25 @@
   margin-top: 100px;
   width: 500px;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  display: grid;
+}
+
+.top {
+  display: grid;
+  height: 60vh;
+  width: 100vw;
+}
+
+.bottom {
+  display: grid;
+  height: 40vh;
+  width: 100vw;
+  justify-content: center;
+  background-image: linear-gradient(to right, grey, rgb(200, 200, 200));
+}
