@@ -18,11 +18,12 @@
   width: 100%;
   border-bottom: 2px solid black;
   text-align: center;
+  align-items: center;
 }
 
 .top img {
   max-height: 90%;
-  max-width: 100%;
+  border-radius: 2%;
 }
 
 .bottom {
