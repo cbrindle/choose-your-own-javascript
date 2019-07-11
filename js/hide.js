@@ -16,9 +16,9 @@ function handleDecision(event) {
       if ((roll >= 1) || (roll <=10)) {
         window.location="./scare-low.html";
       } else if ((roll >= 11) || (roll <=20)) {
-        window.location="./scare.success";
+        window.location="./scare.success.html";
       }
   } else {
-    alert(`I don't see how "` + answer + `" will help. Try again.`);
+    alert(`I don't see how "` + answer + `" will help. Try again (Psssssst... type "roll" into the text box").`);
   }
 }
