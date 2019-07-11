@@ -11,10 +11,10 @@ function handleDecision(event) {
   console.log(answer);
 
   // Queries for index.html
-  if (answer.includes(`hide`) || (answer.includes(`bushes`)) || (answer.includes(`scare`))) {
-    window.location = './hide.html';
-  } else if (answer.includes(`greet`) || answer.includes(`run`)) {
-    window.location = './greet.html';
+  if (answer.includes(`approach`) || (answer.includes(`liquor`)) || (answer.includes(`cabinet`))) {
+    window.location = './liquor-choice.html';
+  } else if (answer.includes(`bed`)) {
+    window.location = './no-liquor.html';
   } else {
     alert(`I don't see how "` + answer + `" will help. Try again.`);
   }
