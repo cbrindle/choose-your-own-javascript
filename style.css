@@ -17,13 +17,13 @@
   width: 100%;
   grid-template-rows: 100%;
   grid-template-columns: 20% 60% 20%;
+  border-bottom: 2px solid black;
 }
 
 .top {
   display: grid;
   grid-area: 1 / 2 / span 1 / span 1;
   justify-content: center;
-  border-bottom: 2px solid black;
   align-items: center;
 }
 
@@ -55,9 +55,6 @@
   text-align: center;
   align-items: center;
   background-color: rgb(190, 210, 210);
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
 }
 
 .bottom-right {
