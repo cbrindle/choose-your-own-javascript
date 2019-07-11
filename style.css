@@ -11,6 +11,11 @@
   display: grid;
 }
 
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .top-contain {
   display: grid;
   height: 60vh;
