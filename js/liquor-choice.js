@@ -11,7 +11,7 @@ function handleDecision(event) {
   console.log(answer);
 
   // Queries for index.html
-  if (answer === 1) {
+  if ("answer" === 1) {
       window.location = './small-glass.html';
   } else if (answer === 2) {
       window.location = "./medium-glass.html";
