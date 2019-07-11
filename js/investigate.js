@@ -11,8 +11,8 @@ function handleDecision(event) {
   console.log(answer);
 
   // Queries for index.html
-  if (answer.includes(`car`) || (answer.includes(`investigate`))) {
-    window.location = './investigate.html';
+  if (answer.includes(`hide`) || (answer.includes(`bushes`)) || (answer.includes(`scare`))) {
+    window.location = './hide.html';
   } else if (answer.includes(`inside`)) {
     window.location = './go-inside.html';
   } else {
