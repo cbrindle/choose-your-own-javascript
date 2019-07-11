@@ -13,9 +13,9 @@ function handleDecision(event) {
   // Queries for index.html
   if (answer.includes(`hide`) || (answer.includes(`bushes`)) || (answer.includes(`scare`))) {
     window.location = './hide.html';
-  } else if (answer.includes(`inside`)) {
-    window.location = './go-inside.html';
+  } else if (answer.includes(`greet`) || answer.includes(`run`)) {
+    window.location = './greet.html';
   } else {
-    alert(`I don't see how ` + answer + ` will help. Try again.`);
+    alert(`I don't see how "` + answer + `" will help. Try again.`);
   }
 }

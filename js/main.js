@@ -16,6 +16,6 @@ function handleDecision(event) {
   } else if (answer.includes(`inside`)) {
     window.location = './go-inside.html';
   } else {
-    alert(`I don't see how ` + answer + ` will help. Try again.`);
+    alert(`I don't see how "` + answer + `" will help. Try again.`);
   }
 }
