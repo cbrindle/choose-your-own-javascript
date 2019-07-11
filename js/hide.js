@@ -22,4 +22,3 @@ function handleDecision(event) {
     alert(`I don't see how "` + answer + `" will help. Try again (Psssssst... type "roll" into the text box").`);
   }
 }
-console.log(d20roll);
