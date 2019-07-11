@@ -11,13 +11,19 @@
   display: grid;
 }
 
-.top {
+.top-contain {
   display: grid;
-  justify-content: center;
   height: 60vh;
   width: 100%;
+  grid-template-rows: 100%;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.top {
+  display: grid;
+  grid-area: 1 / 2 / span 1 / span 1;
+  justify-content: center;
   border-bottom: 2px solid black;
-  text-align: center;
   align-items: center;
 }
 
