@@ -19,3 +19,6 @@ function handleDecision(event) {
     alert(`I don't see how "` + answer + `" will help. Try again.`);
   }
 }
+
+// const displayText = document.querySelector('.thisOne')
+// displayText.innerText = `It looks like you got a ` + roll + `. You thought it would be funny to jump out and scare your wife, but she failed to swerve in time and ran you over.`

@@ -12,13 +12,14 @@ function handleDecision(event) {
 
 //   Queries for index.html
   if (answer === `roll`) {
-      let roll = Math.ceil(Math.random() * 20 );
-      if ((roll >= 1) || (roll <=10)) {
+      const d20roll = Math.ceil(Math.random() * 20 );
+      if ((d20roll >= 1) && (d20roll <=10)) {
         window.location="./scare-low.html";
-      } else if ((roll >= 11) || (roll <=20)) {
-        window.location="./scare.success.html";
+      } else if ((d20roll >= 11) && (d20roll <=20)) {
+        window.location="./scare-success.html";
       }
   } else {
     alert(`I don't see how "` + answer + `" will help. Try again (Psssssst... type "roll" into the text box").`);
   }
 }
+console.log(d20roll);

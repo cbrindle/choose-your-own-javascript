@@ -39,6 +39,7 @@ p {
 
 .top-left img {
   max-height: 100%;
+  opacity: .75;
 }
 
 .top-right {
